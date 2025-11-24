@@ -152,12 +152,13 @@ Dodaj do includes:
 `#include <random>`  
 
 Przykład generowania:  
-``  
+``` 
 std::random_device rd;  
 std::mt19937 gen(rd()); // metoda losowania  
 std::uniform_int_distribution<> dist(0, 9); // zakres 0-9  
 int wylosowana = dist(gen); // losowanie liczby  
-
+```
+</details>
 ---
 
 Długi przykład z wszystkim i wiencej (napisane w notatniku na telefonie, na 99% nie działa):
@@ -235,5 +236,6 @@ int main() {
 
     return 0;
 }
-</details>
 ```
+</details>
+
