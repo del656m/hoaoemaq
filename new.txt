@@ -1,0 +1,113 @@
+instrukcje warunkowe w c++:
+ if ... else
+ switch .. case
+
+instrukcja if else sprawdza czy coś jest równe 'true', czyli czy jest prawdziwe. przykład:
+  int number = 82;
+  if (number == 82) {
+    std::cout << "Liczba jest rowna 82\n";
+  } else {
+    std::cout << "Liczba nie jest rowna 82\n";
+  }
+instrukcja switch sprawdza czy zmienna jest równa wartości. głównie używana gdy możliwych wartości jest dużo (np 10). krutki przykład:
+ int option = // jakaś liczba z cmd
+ switch (option) {
+  case 1:
+   std::cout << "Opcja 1\n";
+   break;
+  case 2: {
+   std::cout << "Opcja 2\n";
+   break;
+  }
+  default:
+   std::cout << "Opcja ?\n";
+   break;
+ }
+
+Przykładowy program 1 (bez 'using namespace std'):
+Dla trzech buków trujkąta (a b c) sprawdza, czy tworzą trójkąt prostokątny.
+```
+#include <iostream>
+#include <conio.h>
+
+int main() {
+ int a, b, c;
+ std::cout << "Podaj bok a: ";
+ std::cin >> a;
+ if (a <= 0) {
+  std::cout << "Bok a jest <= 0\n";
+  return -1;
+ }
+ std::cout << "Podaj bok b: ";
+ std::cin >> b;
+ if (b <= 0) {
+  std::cout << "Bok b jest <= 0\n";
+  return -1;
+ }
+ std::cout << "Podaj bok c: ";
+ std::cin >> c;
+ if (c <= 0) {
+  std::cout << "Bok c jest <= 0\n";
+  return -1;
+ }
+ 
+ // twierdzenie pitagorasa
+ if ((a*a + b*b) == (c*c)) {
+  std::cout << "Boki tworzą trukjąt prostokątny.\n";
+ } else {
+  std::cout << "Boki nie tworzą trujkątu prostokątnego\n";
+ }
+ return 0;
+}
+```
+Można pozmieniać pare żeczy w programie i zobaczyć co sie zmieni jeśli czegoś się troche nie rozumie.
+
+Zadania 2:
+1. Napisz program który:
+ Ma zmienne a b i c (a nie może być równe 0) jako double
+ Oblicza delte (b*b-4*a*c)
+ Jeśli delta jest mniejsza od zera, równanie nie postada pierwiastków rzeczywistych. Jeśli delta jest równa 0, jest to pierwiastek podwójny (tylko x1). Jeśli delta jest wiéksze od 0, posiada x1 i x2.
+ Wzór 1:
+  x1 = –b / (2 * a);
+ Wzory 2:
+  x1 = (-b – √(delta)) / (2 * a);
+  x2 = (-b + √(delta)) / (2 * a);
+ x1 i/ x2 wyświetlić
+ wszendzie wyświetlać do dwuch miejsc po przecinku
+ Wskazówki:
+  Sprawdzić czy a jest równe zero: `a == 0`
+  Sprawdzić delte: `if (delta < 0) {...} else if (delta == 0) {...} else {...}`
+  Pierwiastek z delty: `std::sqrt(delta)`
+  Wyświetlać do dwuch miejsc po przecinku: `std::cout << std::fixed << std::setprecision(2);`
+ a = 1, b = 5, c = 4 -> x1 = -4, x2 = -1
+ a = 1, b = 4, c = 4 -> x1 = pierwiastek podwójny: -2
+ a = 1, b = 2, c = 3 -> trójmian nie ma pierwiastków rzeczywistych.
+2. Napisz program który używając switch:
+ oblicza pierwiastki równania kwadratowego
+ to samo co wcześniej ale z switch.
+ Wskazówki:
+  Jak: ```
+int lp = 0;
+if (delta<0){lp=0}else if(delta==0){lp=1}else{lp=2}
+```
+  Jak switch: `tak jak w przykładzie na poczontku, tylko sprawdzic czy lp jest 0, 1 czy 2`
+3. Napisz program który:
+ Wartości a b c, typ double.
+ Przeksztalc ruwnanie 'ax + b = c' żeby obliczyć x.
+ Policz x
+ Wyświetl wszystkie 4 zmienne z precyzją 2 miejsca po przecinku.
+ Wskazówki:
+  Wzór przekształcony: `x=(c-b)/a`
+4. Napisz program który:
+ generuje losową liczbe od 0 to 9, którą użytkownik zgaduje.
+ Jak generować pseudolosowe liczby:
+  1. 
+   obok reszty include:
+   `#include <random>`
+  2. std::random_device rd; 
+    std::mt19937 gen(rd()); // metoda losowania
+    std ::uniform_int_distribution<> dist(0, 100); // od jakiej do jakiej liczby
+    int wylosowna = dist(gen); // losowanie liczby
+5. Zrub te zadania sam, bez ChatGPT.
+
+powodzenia dla osób które nie wiedzą nic bo nic nie robiły
