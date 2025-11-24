@@ -129,7 +129,7 @@ Następnie użyj `switch` na `lp` tak jak w przykładzie na początku.
 
 3. Napisz program, który:  
 - Ma wartości `a`, `b`, `c` typu `double`.  
-- Przekształca równanie `ax + b = c` tak, aby obliczyć `x`.  
+- Przeksztłć równanie `ax + b = c` tak, aby obliczyć `x`.  
 - Oblicza `x`.  
 - Wyświetla wszystkie 4 zmienne z precyzją do dwóch miejsc po przecinku.  
 
