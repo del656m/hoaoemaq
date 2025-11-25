@@ -159,9 +159,10 @@ std::uniform_int_distribution<> dist(0, 9); // zakres 0-9
 int wylosowana = dist(gen); // losowanie liczby  
 ```
 </details>
+
 ---
 
-Długi przykład z wszystkim i wiencej (napisane w notatniku na telefonie, na 99% nie działa):
+Długi przykład bo mi sie nudzi:
 <details>
 <summary>Wskazówka</summary>
 ```
