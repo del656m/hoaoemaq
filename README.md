@@ -1,3 +1,5 @@
+jeśli czegoś sie nie rozumie, to lepiej to zrozumieć (google, moze nawet ai)
+
 1. printing-variables - konsola (io), liczby
 - std::cout, std::cin
 - int, float, double
