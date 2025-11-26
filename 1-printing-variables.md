@@ -83,15 +83,27 @@ Pokazanie drugo raz liczby 1 jako `25` to ta dłuższa wersja, a `nowa liczba 1`
 
 - `std::cin` jest używane do zabrania liczby od użytkownik.
 - używa się znaków `>>` (od), nie `<<` (do).
-przykład: ```
-float number;
-std::cin >> float;
-std::cout << "Wproqadzono liczbe: "<<number<<"\n";
+przykład:
 ```
+float number;
+std::cout << "Liczba: ";
+std::cin >> number;
+std::cout << "Wprowadzono liczbe: "<<number<<"\n";
+```
+Wyjaśnienie przykładu:
+- `float number;` muwi c++, że ma stworzyć coś o nazwie `number` i o typie `float`, która ma być pusta
+- `std::cout << "Liczba: "` wyświetla komunikat dla użytkownika że może wpisać liczbe. Jest to opcjonalne ale lepiej to mieć.
+- `std::cin >> number` czeka na to, aż użytkownik wpisze liczbe do okna cmd, i tą liczbe wkłada do `number`
+- `std::cout ` wyświetla tą liczbe
 
 ---
 
 Jakieś zadania:
+-1: jeśli coś jest niezrozumiałe, można zobaczyć w google (ChatGPT albo inne ai lub edge lepiej nie)
+0. skopiować przykłady, zobaczyć co można zmienić i co to zrobi. również jakie błędy co oznaczają.
 1. wyświetl dowojny tekst składający się z 3 linii, używając jednego std::cout. (znaku `\n` nie trzeba używać tylko na koncu tekstu)
 2. wyświetl mnożenie liczb 4.5 i 21 jako liczba całkowita
 3. wyświetl mnożenie liczb, gdzie pierwsza i druga liczba są zabrane od użytkownika
+4. oblicz x=a+(b/2)+(c*2). liczby `a`, `b` i `c` powinny być wpisane przez użytkownika. wszystkie liczby powinny być rzeczywiste, ilość precyzji niejest tu ważna.
+
+jakieś problemy albo coś to ja mam dużo wolnego czasu, można jakoś napisac to odpisze jak bende mugl
