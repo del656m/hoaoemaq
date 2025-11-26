@@ -3,7 +3,10 @@
 ### Zadania 1:
 1. Wyświetl liczbę pi z dokładnością do 5 miejsc po przecinku
 2. Wyświetl pierwiastek kwadratowy liczby pi z dokładnością do 2 miejsc po przecinku.
-3. 
+3. Napisz program który oblicza objętość kuli o promieniu r, `4*pi*r^3/3.`, wyświetl z dokładnością do 2 miejsc po kropce
+4. Napisz program który oblicza wynik dzielenia całkowitego gdzie a=37 i b=11
+5. Napisz program który oblicza reszte dzielenia dla dwóch liczb całkowitych a=37 i b=11. (modulo)
+6. Napisz program który wyświetla wynik dodawania, odejmowania, mnożenia i dzielenia liczb `x` i `y` wprowadzonych z klawiatury. dokładność 2 miejsca po kropce.
 
 ### Zadania 2:
 1. Napisz program który
