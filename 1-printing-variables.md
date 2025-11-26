@@ -79,6 +79,8 @@ suma: 1264.0678
 ```
 Pokazanie drugo raz liczby 1 jako `25` to ta dłuższa wersja, a `nowa liczba 1` to suma liczb n1 n2 n3 jako liczba całkowita.
 
+- jeśli zdefiniowało się jakąc zmienną (np. `int test`), nie można jej zdefiniować ponownie (każde `float test`, `int test`, lib z jakimkolwiek innym typem danych poprostu da błąd.
+
 ---
 
 - `std::cin` jest używane do zabrania liczby od użytkownik.
