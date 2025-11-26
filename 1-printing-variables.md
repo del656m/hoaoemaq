@@ -99,8 +99,11 @@ Wyjaśnienie przykładu:
 ---
 
 Jakieś zadania:
--1: jeśli coś jest niezrozumiałe, można zobaczyć w google (ChatGPT albo inne ai lub edge lepiej nie)
+
+0. jeśli coś jest niezrozumiałe, można zobaczyć w google (ChatGPT albo inne ai lub edge lepiej nie)
+
 0. skopiować przykłady, zobaczyć co można zmienić i co to zrobi. również jakie błędy co oznaczają.
+
 1. wyświetl dowojny tekst składający się z 3 linii, używając jednego std::cout. (znaku `\n` nie trzeba używać tylko na koncu tekstu)
 2. wyświetl mnożenie liczb 4.5 i 21 jako liczba całkowita
 3. wyświetl mnożenie liczb, gdzie pierwsza i druga liczba są zabrane od użytkownika
