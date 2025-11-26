@@ -1,10 +1,10 @@
-jeśli czegoś sie nie rozumie, to lepiej to zrozumieć (google, moze nawet ai)
+jeśli czegoś sie nie rozumie, to lepiej to zrozumieć (z google, moze nawet ai)
 
-## dużo z tego jest opcjonalne, nie wszystko trzeba wiedzieć
+## dużo z tego nie jest wymagane, nie wszystko trzeba wiedzieć
 
 jak to widzisz to napisz na messager czy cos
 
-odpowiedzi na zadania mozna w Issues w tym repo, also w jakis inny sposub jakby sie dalo.
+odpowiedzi na zadania mozna w Issues na GitHub, also w jakis inny sposub jakby sie dalo.
 
 1. printing-variables - konsola (io), liczby
 - std::cout, std::cin
