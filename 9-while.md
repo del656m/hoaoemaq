@@ -23,4 +23,4 @@ Wyjaśnienie
 - jeśli a jest większe od 1 biliona (2 biliony to limit dla typu int), zmienna running zmieni się na false, a while przestanie wykonywać kod (dopiero po tym, w kturym wartość została zmieniona na false)
 
 Zadanie:
-1. Zrub program który do końca życia tego programu będzie liczyc setki kalkulacji (np. sqrt). Przestać jego działanie przez ctrl+c w windows.
+1. Zrub program który do końca życia tego programu będzie liczyc setki kalkulacji (np. sqrt, logarytmy losowych liczb). Przestać jego działanie przez ctrl+c w windows.
