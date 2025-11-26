@@ -77,3 +77,8 @@ else {
 }
 ```
 gdzie `condition` to wartość boolean, a `...` to kod.
+
+
+Zadania:
+1. menu wyboru czegoś do zrobienia
+2. Nwm, niemam pomysłów
