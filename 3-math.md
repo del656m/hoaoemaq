@@ -17,3 +17,6 @@
 - liczby można wpisywać decymalnie (nomalnie) pisząc normalnie.
 - w binarnym przez dodanie `0b` na początek, np. `0b110` to 6 (4+2)
 - w hexadecymalnym (hex) przez dodawanie `0x` na początek, np. `0x1F`
+
+
+Zadania: coś wymyśl, zadań niema bo za mało żeczy. można zobaczyć co sie stanie jak sie da jakąś liczbe do jakiejś funkcji czy coś.
