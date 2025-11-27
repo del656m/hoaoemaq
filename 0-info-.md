@@ -1,0 +1,1 @@
+przeczytaj README.md najperw
