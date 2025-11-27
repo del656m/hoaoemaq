@@ -53,5 +53,30 @@ Przykład 3:
 ```
 #include <iostream>
 
-int fib(int a)
+int fib(int n) {
+  if (n<=1) return n;
+  return fib(n-1)+fib(n-2);
+}
+
+int main() {
+  for (int i = 0; i < 10; i++) {
+    std::cout << "fib("<<i<<") = "<<fib(i)<<"\n";
+  }
+}
 ```
+Wyjaśnienie:
+- `int fib(int n)` to znana w programowaniu matematyczna funkcja "Fibonacci". Wyjaśnienie czym ona jest, można zobaczyć z kodu lub (lepiej) w google.
+- `if (n<=) return n;` liczby 0 i 1 zwracają siebie.
+- `return ...` - używanie funkcji fib w sobie, nie jest to polecane gdy jest ona używana dużo, ale i tak można.
+- `for (int i ...` - pętla, która wyliczy fib dla n od 0 do 9.
+- `std::cout<< ...` - liczy i wyświetla wynik
+
+Zadania:
+1. program, który
+- od użytkownika zabiera 5 liczb typu double.
+- dla kazdej kombinacji z nich, liczy ich: dodawanie, odejmowanie, mnożenie, dzielenie, modulo, potęga, pierwiastek ich sum, logarytm o podstawie 2 z ich sum.
+- kombinacje: 25 - aa, ab, ac, ad, ae, ba, bb, bc, bd, be, ca, cb, cc, cd, ce, da, db, dc, dd, de, ea, eb, ec, ed, ee
+- użyj funkcji, bez kopiowania kodu 25 razy, ale wykonanie funkcji 25 razy jest dozwolone
+- wszystkie 5 liczb można albo ustawić samemu, albo losowo
+2. zadanie pierwsze, ale użyj array jako liczby, ilość liczb powinna być możliwa do zmienienia jedną linijką, np. `const int NUMBERS = 7;`, wraz z słowem `const`, i `int nums[NUMBERS]`.
+3. funkcja która zwróci losową liczbe, i automatycznie użyje srand oraz rand.
