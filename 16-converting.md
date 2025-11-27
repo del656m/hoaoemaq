@@ -8,4 +8,8 @@ int b = static_cast<int>(a);
 Wyjaśnienie:
 - `<int>` - na jaki typ zamienic
 
-- 
+---
+
+- `std::to_string(a)` - na string
+- `std::stoi(a)` - string na int
+- `std::stod(a)` - string na double
