@@ -19,7 +19,7 @@ przykład: `std::cout << "Wiadomość\n"`
 // często `int main() {}` uznacza miejsce, kiedy kod się rozpocznie
 int main() {
   // wyświetla wiadomość
-  std::cout << "Hello, World/n";
+  std::cout << "Hello, World\n";
 }
 ```
 
