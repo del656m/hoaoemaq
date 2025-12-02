@@ -4,7 +4,7 @@
 - `std::cout << std::fixed << std::setprecision(2)` powoduje, że pokazanie liczb jak '3.141' będzie skrucone do 2 liczb po przecunku, czyli '3.14'
 
 Przykład:
-```
+```cpp
 #include <iostream>
 #include <iomapip> // dla std::fixed i std::setprecision
 
@@ -32,7 +32,7 @@ pi (3): 3.141
 3. numbers (nowsze, lepsze): `#include <numbers>`. dostępne jako `std::numbers::pi`. żeby użyt trzeba mieć wersje c++20 (można zobaczyc w internecie jak zmienić)
 
 Przykład:
-```
+```cpp
 #include <iostream>
 #include <numbers>
 
