@@ -3,7 +3,7 @@
 - pętla for, jest podobna do while.
 - używana żeby zrobić coś daną ilość razy.
 - przykład:
-```
+```cpp
 for (int i = 0; i < 5; ++i) {
   std::cout<<"Iteracja: "<<i<<"\n";
 }
