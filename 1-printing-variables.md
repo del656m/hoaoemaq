@@ -12,11 +12,11 @@ przykład: `std::cout << "Wiadomość\n"`
 - `std::cout` używa się przez dodanie do niego elementów znakami `<<`, można do niego dodawać nie tylko tekst, a równierz wiele wodzajów liczb.
 
 ### Przykład 1:
-```
+```cpp
 // iostream daje nam dostęp do std::cout
 #include <iostream>
 
-// często `int main() {}` uznacza miejsce, kiedy kod się rozpocznie
+// często `int main() {...}` wyznacza miejsce, kiedy kod się rozpocznie (wymagane)
 int main() {
   // wyświetla wiadomość
   std::cout << "Hello, World\n";
@@ -24,7 +24,7 @@ int main() {
 ```
 
 ### Przykład 2 (z błędem):
-```
+```cpp
 #include <iostream>
 
 int main() {
@@ -32,7 +32,7 @@ int main() {
   std::cout << "Informacja druga";
 }
 ```
-bez znaków `\n` tekst zostanie wyświetlony w tej samej lini
+bez znaków `\n` tekst zostanie wyświetlony w tej samej lini: `Informacja pierwszaInformacja druga`
 
 ---
 
@@ -42,7 +42,7 @@ bez znaków `\n` tekst zostanie wyświetlony w tej samej lini
 - limit liczb float i double może być większy od 7 lub 17, traci on tylko dokładność.
 
 Przykład 3:
-```
+```cpp
 #include <iostream>
 
 int main() {
@@ -86,7 +86,7 @@ Pokazanie drugo raz liczby 1 jako `25` to ta dłuższa wersja, a `nowa liczba 1`
 - `std::cin` jest używane do zabrania liczby od użytkownik.
 - używa się znaków `>>` (od), nie `<<` (do).
 przykład:
-```
+```cpp
 float number;
 std::cout << "Liczba: ";
 std::cin >> number;
