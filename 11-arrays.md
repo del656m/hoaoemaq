@@ -3,7 +3,7 @@
 - array działa jak lista, która nie zmienia listy elementów.
 - elementy w array zaczynają się od 0. czyli pierwszym elementem będzie element z index 0, czyli o 1 miejszym.
 - przykład:
-```
+```cpp
 int scores[5] = {82, 70, 21, 98, 88};
 scores[4] = 64;
 
