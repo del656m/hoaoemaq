@@ -4,7 +4,7 @@
 - 0 oznacza ok.
 - użycie return oznacza zatrzymanie programu.
 - Przykład:
-```
+```cpp
 int main() {
   ...
   if (...) {
@@ -22,7 +22,7 @@ int main() {
 - jeśli seed będzie taki sam, to wylosowane liczby też będą takie same (jak świat w grach)
 - `rand` losuje liczbe, wystarczy użyć `srand` jeden raz na nieskonczenie wiele `rand`
 - Przykład:
-```
+```cpp
 srand(12345);
 int random = rand();
 std::cout<<"liczba z seed 12345: "<<random<<"\n";
