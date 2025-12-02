@@ -3,7 +3,7 @@
 - argumenty są przydatne, jeśli program niechce użytac cin, tylko chce informacje w argumentach.
 - przykładem programów kture biorą argumenty są instalatory programów. Często jednym z dostępnych argumentów jest `/S`, `/silent`, `/qn`, które instalują program bez pytania i bez okna.
 - Przykład:
-```
+```cpp
 int main(int argc, char* argv[]) {
   std::cout << "Ilosc argumentow: "<<argc<<"\n";
   std::cout << "Sciezka programu: "<<argv[0]<<"\n";
@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
   }
 }
 ```
-Komsnda: `program.exe argTest`
+Komenda: `program.exe argTest`
 Output:
 ```
 Ilocs argumentow: 2
