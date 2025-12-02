@@ -1,5 +1,5 @@
 Zadania:
-1. Pole i objętość torusa (pączka)
+1. Pole i objętość torusa (ponczka)
    V=2π2Rr2 - objętość
    A=4π2Rr - pole powierzchni
    r i R - promienie (nwm co jest promieniem czego, ale google wie)
