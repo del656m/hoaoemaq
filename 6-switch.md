@@ -3,7 +3,7 @@
 - podobne do if
 - zamiast sprawdzac kondycje, dprawdza on liczbe
 pzrykład:
-```
+```cpp
 int type = 2;
 switch (type) {
 case 0: {
