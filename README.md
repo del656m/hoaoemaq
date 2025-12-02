@@ -6,6 +6,10 @@ jeśli czegoś sie nie rozumie, to lepiej to zrozumieć (z google, moze nawet ai
 
 wszystko trzeba robić po kolei. czyli 1 2 3, not 5 2 7 3 1 4 czy coś.
 
+zadania z lekcji są tylko w `8`. jeśli w jakimś md nie będzie zadań, nie rozumie się nich lub jest ich na mało, można sprubować użyć tych żeczy w jakiś sposób, a jeśli pokaże się błąd lub program nie bendzie działał, sprawdzić to w md lub google (lub al jeśli problem się nie rozwiąże)
+
+wiem że jest tu więcej błędów niz poprawnie napisanych zdań.
+
 ## 1-8 
 1. printing-variables - konsola (io), liczby
 - std::cout, std::cin
