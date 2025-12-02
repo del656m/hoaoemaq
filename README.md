@@ -2,14 +2,11 @@
 
 jeśli czegoś sie nie rozumie, to lepiej to zrozumieć (z google, moze nawet ai)
 
-## dużo z tego nie jest wymagane, nie wszystko trzeba wiedzieć
+## większośç z tego nie jest wymagane, nie wszystko trzeba wiedzieć
 
-jak to widzisz to napisz na messager czy cos
+wszystko trzeba robić po kolei. czyli 1 2 3, not 5 2 7 3 1 4 czy coś.
 
-odpowiedzi na zadania mozna w Issues na GitHub, also w jakis inny sposub jakby sie dalo.
-
-najlepidj robić wszystko po kolei, nawet jeśli się już coś zna, bo może się okazać że jednak sie nie zna. Nawer ja sie dowiedziałem że dużo źle znam.
-
+## 1-8 
 1. printing-variables - konsola (io), liczby
 - std::cout, std::cin
 - int, float, double
